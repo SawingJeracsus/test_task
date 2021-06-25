@@ -1,0 +1,48 @@
+.products_wrapper{
+    margin-top: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.modal-btn{
+    width: 45%;
+}
+.remove_modal__title, .add_modal__title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.remove_modal__btns_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add_modal__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+.add_modal__input{
+    width: 100%;
+    border: none;
+    padding: 4px;
+    background-color: #eee;
+    border-radius: 9px;
+}
+
+.add_modal__buttons-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_modal__buttons-wrapper button{
+    width: 45%;
+}
